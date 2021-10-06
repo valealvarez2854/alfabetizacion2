@@ -1,44 +1,44 @@
-let nutricionista1=document.getElementById("nutricionista1");
-let fotonutricionista1=document.getElementById("fotonutricionista1");
-let nutricionista2=document.getElementById("nutricionista2");
-let fotonutricionista2=document.getElementById("fotonutricionista2");
+let vaca1=document.getElementById("vaca1");
+let fotovaca1=document.getElementById("fotovaca1");
+let vaca2=document.getElementById("vaca2");
+let fotovaca2=document.getElementById("fotovaca2");
 
-let profesor1=document.getElementById("profesor1");
-let fotoprofesor1=document.getElementById("fotoprofesor1");
-let profesor2=document.getElementById("profesor2");
-let fotoprofesor2=document.getElementById("fotoprofesor2");
+let leon1=document.getElementById("leon1");
+let fotoleon=document.getElementById("fotoleon1");
+let leon2=document.getElementById("leon2");
+let fotoleon2=document.getElementById("fotoleon2");
 
-let doctor1=document.getElementById("doctor1");
-let fotodoctor1=document.getElementById("fotodoctor1");
-let doctor2=document.getElementById("doctor2");
-let fotodoctor2=document.getElementById("fotodoctor2");
+let ballena1=document.getElementById("ballena1");
+let fotoballena1=document.getElementById("fotoballena1");
+let ballena2=document.getElementById("ballena2");
+let fotoballena2=document.getElementById("fotoballena2");
 
-let bombero1=document.getElementById("bombero1");
-let fotobomero1=document.getElementById("fotobomero1");
-let bombero2=document.getElementById("bombero2");
-let fotobombero2=document.getElementById("fotobombero2");
-
-
-let contadornutricionista=0;
-let contadorprofesor=0;
-let contadordoctor=0;
-let contadorbombero=0;
+let buho1=document.getElementById("buho1");
+let fotobuho1=document.getElementById("fotobuho1");
+let buho2=document.getElementById("buho2");
+let fotobuho2=document.getElementById("fotobuho2");
 
 
-nutricionista1.addEventListener("click",activarnutricionista1)
-nutricionista2.addEventListener("click",activarnutricionista2)
-
-profesor1.addEventListener("click",activarprofesor1)
-profesor2.addEventListener("click",activarprofesor2)
-
-doctor1.addEventListener("click",activardoctor1)
-doctor2.addEventListener("click",activardoctor2)
-
-bombero1.addEventListener("click",activarbombero1)
-bombero2.addEventListener("click",activarbombero2)
+let contadorvaca=0;
+let contadorleon=0;
+let contadorballena=0;
+let contadorbuho=0;
 
 
-function activarnutricionista1(){
+vaca1.addEventListener("click",activarvaca1)
+vaca2.addEventListener("click",activarvaca2)
+
+leon1.addEventListener("click",activarleon1)
+leon2.addEventListener("click",activarleon2)
+
+ballena1.addEventListener("click",activarballena1)
+ballena2.addEventListener("click",activarballena2)
+
+buho1.addEventListener("click",activarbuho1)
+buho2.addEventListener("click",activarbuho2)
+
+
+function activarvaca1(){
 
     console.log("hola")
     nutricionista1.classList.remove("bg-dark");
@@ -85,7 +85,7 @@ function activarnutricionista2(){
     
             }else{
     
-                let audio=new Audio('audio/celebrando.mp3')
+                let audio=new Audio('audio/audio.mp3')
                 audio.play();
                 
            let resultadonutricionista2=document.getElementById("resultadonutricionista");
@@ -114,7 +114,7 @@ function activarprofesor1(){
 
         }else{
 
-            let audio=new Audio('audio/celebrando.mp3')
+            let audio=new Audio('audio/audio.mp3')
             audio.play();
 
             let resultadoprofesor1=document.getElementById("resultadoprofesor");
@@ -144,7 +144,7 @@ function activarprofesor2(){
     
             }else{
     
-                let audio=new Audio('audio/celebrando.mp3')
+                let audio=new Audio('audio/audio.mp3')
                 audio.play();
                 
           
@@ -176,7 +176,7 @@ function activardoctor1(){
     
             }else{
     
-                let audio=new Audio('audio/celebrando.mp3')
+                let audio=new Audio('audio/audio.mp3')
                 audio.play();
                 
           
@@ -209,7 +209,7 @@ function activardoctor2(){
     
             }else{
     
-                let audio=new Audio('audio/celebrando.mp3')
+                let audio=new Audio('audio/audio.mp3')
                 audio.play();
                 
           
@@ -241,7 +241,7 @@ function activarbombero1(){
     
             }else{
     
-                let audio=new Audio('audio/celebrando.mp3')
+                let audio=new Audio('audio/audio.mp3')
                 audio.play();
                 
           
@@ -273,7 +273,7 @@ function activarbombero2(){
     
             }else{
     
-                let audio=new Audio('audio/celebrando.mp3')
+                let audio=new Audio('audio/audio.mp3')
                 audio.play();
                 
           
