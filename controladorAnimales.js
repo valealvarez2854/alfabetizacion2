@@ -4,7 +4,7 @@ let vaca2=document.getElementById("vaca2");
 let fotovaca2=document.getElementById("fotovaca2");
 
 let leon1=document.getElementById("leon1");
-let fotoleon=document.getElementById("fotoleon1");
+let fotoleon1=document.getElementById("fotoleon1");
 let leon2=document.getElementById("leon2");
 let fotoleon2=document.getElementById("fotoleon2");
 
@@ -41,149 +41,152 @@ buho2.addEventListener("click",activarbuho2)
 function activarvaca1(){
 
     console.log("hola")
-    nutricionista1.classList.remove("bg-dark");
-    fotonutricionista1.classList.remove("invisible")
-    contadornutricionista++;
+    vaca1.classList.remove("bg-dark");
+    fotovaca1.classList.remove("invisible")
+    contadorvaca++;
 
     setTimeout(function(){
 
-        if(contadornutricionista !=2){
+        if(contadorvaca !=2){
             
-            nutricionista1.classList.add("bg-dark");
-            fotonutricionista1.classList.add("invisible")
-            contadornutricionista--;
+            vaca1.classList.add("bg-dark");
+            fotovaca1.classList.add("invisible")
+            contadorvaca--;
 
         }else{
 
-            let audio=new Audio('audio/celebrando.mp3')
+            let audio=new Audio('audio/vaca.mp3')
             audio.play();
 
-            let resultadonutricionista1=document.getElementById("resultadonutricionista");
-            resultadonutricionista1.classList.remove("invisible")
-            resultadonutricionista1.classList.add("visible")
+            let resultadovaca1=document.getElementById("resultadovaca");
+            resultadovaca1.classList.remove("invisible")
+            resultadovaca1.classList.add("visible")
 
         }
 
       
     },3000)
 }
-function activarnutricionista2(){
+function activarvaca2(){
 
     console.log("hola")
-    nutricionista2.classList.remove("bg-dark");
-    fotonutricionista2.classList.remove("invisible")
-    contadornutricionista++;
+    vaca2.classList.remove("bg-dark");
+    fotovaca2.classList.remove("invisible")
+    contadorvaca++;
 
     setTimeout(function(){
 
 
-        if(contadornutricionista !=2){
+        if(contadorvaca !=2){
             
-            fotonutricionista2.classList.add("bg-dark");
-            fotonutricionista2.classList.add("invisible")
-            contadornutricionista--;
+            vaca2.classList.add("bg-dark");
+            fotovaca2.classList.add("invisible")
+            contadorvaca--;
     
             }else{
     
-                let audio=new Audio('audio/audio.mp3')
+                let audio=new Audio('audio/vaca.mp3')
                 audio.play();
                 
-           let resultadonutricionista2=document.getElementById("resultadonutricionista");
-            resultadonutricionista2.classList.remove("invisible")
-            resultadonutricionista2.classList.add("visible")
+           let resultadovaca2=document.getElementById("resultadovaca");
+           resultadovaca2.classList.remove("invisible")
+            resultadovaca2.classList.add("visible")
 
             }
     
 
     },3000)
 }
-function activarprofesor1(){
+function activarleon1(){
 
     console.log("hola")
-    profesor1.classList.remove("bg-dark");
-    fotoprofesor1.classList.remove("invisible")
-    contadorprofesor++;
-
-    setTimeout(function(){
-
-        if(contadorprofe !=2){
-            
-            profesor1.classList.add("bg-dark");
-            fotoprofesor1.classList.add("invisible")
-            contadorprofesor--;
-
-        }else{
-
-            let audio=new Audio('audio/audio.mp3')
-            audio.play();
-
-            let resultadoprofesor1=document.getElementById("resultadoprofesor");
-            resultadoprofesor1.classList.remove("invisible")
-            resultadoprofesor1.classList.add("visible")
-
-        }
-
-      
-    },3000)
-}
-function activarprofesor2(){
-
-    console.log("hola")
-    profesor2.classList.remove("bg-dark");
-    fotoprofesor2.classList.remove("invisible")
-    contadorprofesor++;
+    leon1.classList.remove("bg-dark");
+    fotoleon1.classList.remove("invisible")
+    contadorleon++;
 
     setTimeout(function(){
 
 
-        if(contadorprofesor !=2){
+        if(contadorleon !=2){
             
-            profesor2.classList.add("bg-dark");
-            fotoprofesor2.classList.add("invisible")
-            contadorprofesor--;
+            leon1.classList.add("bg-dark");
+            fotoleon1.classList.add("invisible")
+            contadorleon--;
     
             }else{
     
-                let audio=new Audio('audio/audio.mp3')
+                let audio=new Audio('audio/leon.mp3')
                 audio.play();
                 
           
            
-            let resultadoprofesor2=document.getElementById("resultadoprofesor");
-            resultadoprofesor2.classList.remove("invisible")
-            resultadoprofesor2.classList.add("visible")
+            let resultadoleon2=document.getElementById("resultadoleon");
+            resultadoleon2.classList.remove("invisible")
+            resultadoleon2.classList.add("visible")
 
             }
     
 
     },3000)
 }
-function activardoctor1(){
+function activarleon2(){
 
     console.log("hola")
-    doctor1.classList.remove("bg-dark");
-    fotodoctor1.classList.remove("invisible")
-    contadordoctor++;
+    leon2.classList.remove("bg-dark");
+    fotoleon2.classList.remove("invisible")
+    contadorleon++;
 
     setTimeout(function(){
 
 
-        if(contadordoctor !=2){
+        if(contadorleon !=2){
             
-            doctor1.classList.add("bg-dark");
-            fotodoctor1.classList.add("invisible")
-            contadordoctor--;
+            leon2.classList.add("bg-dark");
+            fotoleon2.classList.add("invisible")
+            contadorleon--;
     
             }else{
     
-                let audio=new Audio('audio/audio.mp3')
+                let audio=new Audio('audio/leon.mp3')
                 audio.play();
                 
           
            
-            let resultadoprofesor2=document.getElementById("resultadodoctor");
-            resultadoprofesor2.classList.remove("invisible")
-            resultadoprofesor2.classList.add("visible")
+            let resultadoleon2=document.getElementById("resultadoleon");
+            resultadoleon2.classList.remove("invisible")
+            resultadoleon2.classList.add("visible")
+
+            }
+    
+
+    },3000)
+}
+function activarballena1(){
+
+    console.log("hola")
+    ballena1.classList.remove("bg-dark");
+    fotoballena1.classList.remove("invisible")
+    contadorballena++;
+
+    setTimeout(function(){
+
+
+        if(contadorballena !=2){
+            
+            ballena1.classList.add("bg-dark");
+            fotoballena1.classList.add("invisible")
+            contadorballena--;
+    
+            }else{
+    
+                let audio=new Audio('audio/ballena.mp3')
+                audio.play();
+                
+          
+           
+            let resultadoballena1=document.getElementById("resultadoballena");
+            resultadoballena1.classList.remove("invisible")
+            resultadoballena1.classList.add("visible")
 
             }
     
@@ -191,96 +194,96 @@ function activardoctor1(){
     },3000)
 }
 
-function activardoctor2(){
+function activarballena2(){
 
     console.log("hola")
-    doctor2.classList.remove("bg-dark");
-    fotodoctor2.classList.remove("invisible")
-    contadordoctor++;
+    ballena2.classList.remove("bg-dark");
+    fotoballena2.classList.remove("invisible")
+    contadorballena++;
 
     setTimeout(function(){
 
 
-        if(contadordoctor !=2){
+        if(contadorballena !=2){
             
-            doctor2.classList.add("bg-dark");
-            fotodoctor2.classList.add("invisible")
-            contadordoctor--;
+            ballena2.classList.add("bg-dark");
+            fotoballena2.classList.add("invisible")
+            contadorballena--;
     
             }else{
     
-                let audio=new Audio('audio/audio.mp3')
+                let audio=new Audio('audio/ballena.mp3')
                 audio.play();
                 
           
            
-            let resultadodoctor2=document.getElementById("resultadodoctor");
-            resultadodoctor2.classList.remove("invisible")
-            resultadodoctor2.classList.add("visible")
+            let resultadoballena2=document.getElementById("resultadoballena");
+            resultadoballena2.classList.remove("invisible")
+            resultadoballena2.classList.add("visible")
 
             }
     
 
     },3000)
 }
-function activarbombero1(){
+function activarbuho1(){
 
     console.log("hola")
-    bombero1.classList.remove("bg-dark");
-    fotobomero1.classList.remove("invisible")
-    contadorbombero++;
+    buho1.classList.remove("bg-dark");
+    fotobuho1.classList.remove("invisible")
+    contadorbuho++;
 
     setTimeout(function(){
 
 
-        if(contadorbombero !=2){
+        if(contadorbuho !=2){
             
-            bombero1.classList.add("bg-dark");
-            fotobomero1.classList.add("invisible")
-            contadorbombero--;
+            buho1.classList.add("bg-dark");
+            fotobuho1.classList.add("invisible")
+            contadorbuho--;
     
             }else{
     
-                let audio=new Audio('audio/audio.mp3')
+                let audio=new Audio('audio/buho.mp3')
                 audio.play();
                 
           
            
-            let resultadobombero1=document.getElementById("resultadobombero");
-            resultadobombero1.classList.remove("invisible")
-            resultadobombero1.classList.add("visible")
+            let resultadobuho1=document.getElementById("resultadobuho");
+            resultadobuho1.classList.remove("invisible")
+            resultadobuho1.classList.add("visible")
 
             }
     
 
     },3000)
 }
-function activarbombero2(){
+function activarbuho2(){
 
     console.log("hola")
-    bombero2.classList.remove("bg-dark");
-    fotobombero2.classList.remove("invisible")
-    contadorbombero++;
+    buho2.classList.remove("bg-dark");
+    fotobuho2.classList.remove("invisible")
+    contadorbuho++;
 
     setTimeout(function(){
 
 
-        if(contadorbombero !=2){
+        if(contadorbuho !=2){
             
-            bombero2.classList.add("bg-dark");
-            fotobombero2.classList.add("invisible")
-            contadorbombero--;
+            buho2.classList.add("bg-dark");
+            fotobuho2.classList.add("invisible")
+            contadorbuho--;
     
             }else{
     
-                let audio=new Audio('audio/audio.mp3')
+                let audio=new Audio('audio/buho.mp3')
                 audio.play();
                 
           
            
-            let resultadobombero2=document.getElementById("resultadobombero");
-            resultadobombero2.classList.remove("invisible")
-            resultadobombero2.classList.add("visible")
+            let resultadobuho2=document.getElementById("resultadobuho");
+            resultadobuho2.classList.remove("invisible")
+            resultadobuho2.classList.add("visible")
 
             }
     
